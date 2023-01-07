@@ -31,5 +31,3 @@ This is fairly straightforward to code up - it just requires some bookkeeping of
 You can use the formula for the sum of a geometric progression to extend this code to support some finite sums too. However, sometimes you'll find you need to also support polynomials in m and n and you'll start having to extend the algebraic structure.
 
 And a slightly wacky aside: another way to check these identities by computer is to write the original claim as an assertion about ϕ, ϕᵐ and ϕⁿ. Now replace ϕᵐ with e and ϕⁿ with π. Now check if you get equality by doing arbitrary precision arithmetic. Of course you can never be quite sure you have an exact identity this way :)
-
-(Apologies: the code is more complex that it needed to be. I didn't quite realise how easy this problem was until I'd solved it :)
